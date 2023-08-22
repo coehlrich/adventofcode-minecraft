@@ -1,0 +1,1 @@
+execute as @e[tag=2015-day01] at @s run function adventofcode:2015/day01/internal/tick_entity
