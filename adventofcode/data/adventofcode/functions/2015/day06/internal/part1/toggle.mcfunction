@@ -1,0 +1,3 @@
+$fill ~$(fromx) ~ ~$(fromz) ~$(tox) ~ ~$(toz) minecraft:gray_concrete replace minecraft:black_concrete
+$execute store result entity @s data.remove int 1 run fill ~$(fromx) ~ ~$(fromz) ~$(tox) ~ ~$(toz) minecraft:black_concrete replace minecraft:white_concrete
+$execute store result entity @s data.add int 1 run fill ~$(fromx) ~ ~$(fromz) ~$(tox) ~ ~$(toz) minecraft:white_concrete replace minecraft:gray_concrete

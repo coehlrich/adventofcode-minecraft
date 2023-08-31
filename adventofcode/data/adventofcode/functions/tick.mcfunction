@@ -6,4 +6,6 @@ execute if data storage adventofcode:2015 {day03:{running:1}} run function adven
 function adventofcode:2015/day01/internal/tick
 function adventofcode:2015/day02/internal/tick
 
+function adventofcode:2015/day06/internal/tick
+
 function adventofcode:2022/day10/internal/tick
