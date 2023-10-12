@@ -6,7 +6,5 @@ data modify entity @s data.call.second set from entity @s data.remove
 execute store result entity @s data.call.first int 1 run function adventofcode:internal/utils/operation/subtraction with entity @s data.call
 data modify entity @s data.call.second set from entity @s data.add
 execute store result entity @s data.part1 int 1 run function adventofcode:internal/utils/operation/add with entity @s data.call
-$say $(instruction) $(fromx) $(fromz) $(tox) $(toz)
-tellraw @a {"nbt": "data.part1", "entity": "@s"}
 $forceload remove ~$(fromx) ~$(fromz)
 $forceload remove ~$(tox) ~$(toz)

@@ -1,0 +1,1 @@
+execute positioned over motion_blocking run setblock ~ ~-1 ~ minecraft:air

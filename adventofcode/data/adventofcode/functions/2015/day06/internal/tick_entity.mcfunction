@@ -13,5 +13,6 @@ data modify entity @s data.call.tox set from entity @s data.end[0]
 data modify entity @s data.call.toz set from entity @s data.end[1]
 data modify entity @s data.call.instruction set from entity @s data.instruction
 function adventofcode:2015/day06/internal/part1/run_instruction with entity @s data.call
+function adventofcode:2015/day06/internal/part2/run_instruction with entity @s data.call
 
 execute unless data entity @s data.input[0] run function adventofcode:2015/day06/internal/finish
