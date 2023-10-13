@@ -1,0 +1,1 @@
+return run function adventofcode:internal/utils/string/regex/parse/types/literal
