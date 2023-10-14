@@ -7,7 +7,7 @@ data modify storage adventofcode:string/regex current.parse.position set value 0
 data modify storage adventofcode:string/regex current.parse.group_count set value 1
 execute store result storage adventofcode:string/regex current.parse.end int 1 run data get storage adventofcode:string/regex current.regex
 function adventofcode:internal/utils/string/regex/parse
-tellraw @a {"storage": "adventofcode:string/regex", "nbt": "current.parsed"}
+#tellraw @a {"storage": "adventofcode:string/regex", "nbt": "current.parsed"}
 data remove storage adventofcode:string/regex current.parse
 
 data modify storage adventofcode:string/regex current.find.stack set value []
@@ -24,7 +24,8 @@ execute if data storage adventofcode:string/regex output{success: 1} run functio
 
 execute if data storage adventofcode:string/regex output{success: 1} run data modify storage adventofcode:string/regex output.groups set from storage adventofcode:string/regex current.find.stack[-1].groups
 data remove storage adventofcode:string/regex current.find
-tellraw @a {"storage": "adventofcode:string/regex", "nbt": "output"}
+#tellraw @a {"storage": "adventofcode:string/regex", "nbt": "output"}
+return run data get storage adventofcode:string/regex output.success
 #data modify storage adventofcode:string/regex count set value 0
 #execute store result storage adventofcode:string/regex call.first int 1 run data get storage adventofcode:string/regex current.input
 #execute store result storage adventofcode:string/regex call.second int 1 run data get storage adventofcode:string/regex current.contains
