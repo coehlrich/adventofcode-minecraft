@@ -1,3 +1,12 @@
+# Make sure all the command blocks are done executing
+execute unless data entity @s data{ticks: 20} run function adventofcode:internal/utils/operation/increment {input: "entity @s data.ticks"}
+execute unless data entity @s data{ticks: 20} run return 0
+data modify entity @s data.ticks set value 0
+
+#tellraw @a {"entity": "@s", "nbt": "data.part2"}
+
+return run execute unless data entity @s data.input[0] run function adventofcode:2015/day06/internal/finish
+
 function adventofcode:internal/utils/string/split {split: " ", input: "entity @s data.input[0]", output: "entity @s data.split"}
 data remove entity @s data.input[0]
 data modify entity @s data.instruction set from entity @s data.split[0]
@@ -15,4 +24,5 @@ data modify entity @s data.call.instruction set from entity @s data.instruction
 function adventofcode:2015/day06/internal/part1/run_instruction with entity @s data.call
 function adventofcode:2015/day06/internal/part2/run_instruction with entity @s data.call
 
-execute unless data entity @s data.input[0] run function adventofcode:2015/day06/internal/finish
+execute store result entity @s data.call.input int 1 run bossbar get adventofcode:progress value
+execute store result bossbar adventofcode:progress value run function adventofcode:internal/utils/operation/add_one with entity @s data.call
