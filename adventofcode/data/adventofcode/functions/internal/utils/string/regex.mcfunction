@@ -1,8 +1,10 @@
 data remove storage adventofcode:string/regex output
-#$data modify storage adventofcode:string/regex current.input set from $(input)
-#$data modify storage adventofcode:string/regex current.regex set from $(regex)
-data modify storage adventofcode:string/regex current.input set value "abccddabee"
-data modify storage adventofcode:string/regex current.regex set value "([a-z][a-z])[a-z]*\\1"
+$data modify storage adventofcode:string/regex current.input set from $(input)
+$data modify storage adventofcode:string/regex current.regex set from $(regex)
+#data modify storage adventofcode:string/regex current.input set value "sszojmmrrkwuftyv"
+#data modify storage adventofcode:string/regex current.regex set value "([a-z])\\1"
+#data modify storage adventofcode:string/regex current.input set value "abccddabee"
+#data modify storage adventofcode:string/regex current.regex set value "([a-z][a-z])[a-z]*\\1"
 data modify storage adventofcode:string/regex current.parse.stack set value []
 data modify storage adventofcode:string/regex current.parse.position set value 0
 data modify storage adventofcode:string/regex current.parse.group_count set value 1
@@ -27,7 +29,7 @@ execute if data storage adventofcode:string/regex output{success: 1} run functio
 
 execute if data storage adventofcode:string/regex output{success: 1} run data modify storage adventofcode:string/regex output.groups set from storage adventofcode:string/regex current.find.stack[-1].groups
 data remove storage adventofcode:string/regex current.find
-tellraw @a {"storage": "adventofcode:string/regex", "nbt": "output"}
+#tellraw @a {"storage": "adventofcode:string/regex", "nbt": "output"}
 return run data get storage adventofcode:string/regex output.success
 
 
