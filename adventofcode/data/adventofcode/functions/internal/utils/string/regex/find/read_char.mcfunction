@@ -8,5 +8,6 @@ data modify storage adventofcode:string/regex call.input set value "storage adve
 data modify storage adventofcode:string/regex call.start set from storage adventofcode:string/regex current.find.stack[-1].position
 function adventofcode:internal/utils/operation/increment {input: "storage adventofcode:string/regex current.find.stack[-1].position"}
 data modify storage adventofcode:string/regex call.end set from storage adventofcode:string/regex current.find.stack[-1].position
+#tellraw @a {"type": "nbt", "source": "storage", "storage": "adventofcode:string/regex", "nbt": "current.find.stack"}
 function adventofcode:internal/utils/substring with storage adventofcode:string/regex call
 return 1

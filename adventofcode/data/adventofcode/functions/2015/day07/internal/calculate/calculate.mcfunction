@@ -1,0 +1,1 @@
+$function adventofcode:2015/day07/internal/calculate/operations/$(type)

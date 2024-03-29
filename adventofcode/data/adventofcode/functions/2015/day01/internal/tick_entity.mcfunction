@@ -1,9 +1,9 @@
 data modify entity @s data.current set string entity @s data.remaining 0 1
 
-setblock ~ ~ ~ air
 execute if data entity @s {data: {current: "("}} run tp ~ ~1 ~
 execute if data entity @s {data: {current: ")"}} run tp ~ ~-1 ~
-execute at @s run setblock ~ ~ ~ white_concrete
+
+tp @e[tag=2015-day01-block] @s
 
 data modify entity @s data.call.first set from entity @s data.step
 data modify entity @s data.call.second set value 1
@@ -19,4 +19,5 @@ execute if data entity @s {data: {remaining: ""}} run tellraw @a "Adventofcode 2
 execute if data entity @s {data: {remaining: ""}} run tellraw @a ["Part 1: ", {"entity": "@s", "nbt": "data.part1"}]
 execute if data entity @s {data: {remaining: ""}} run tellraw @a ["Part 2: ", {"entity": "@s", "nbt": "data.part2"}]
 
+execute if data entity @s {data: {remaining: ""}} run kill @e[tag=2015-day01-block]
 execute if data entity @s {data: {remaining: ""}} run kill @s

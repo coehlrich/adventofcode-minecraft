@@ -1,0 +1,15 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:operation/to_binary",
+        "path": "data.count"
+    },
+    "range": {
+        "min": {
+            "type": "storage",
+            "storage": "adventofcode:operation/to_binary",
+            "path": "inputs.bits"
+        }
+    }
+}
