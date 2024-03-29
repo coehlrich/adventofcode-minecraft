@@ -5,7 +5,7 @@ data modify entity @s data.ticks set value 0
 
 #tellraw @a {"entity": "@s", "nbt": "data.part2"}
 
-return run execute unless data entity @s data.input[0] run function adventofcode:2015/day06/internal/finish
+execute unless data entity @s data.input[0] run return run function adventofcode:2015/day06/internal/finish
 
 function adventofcode:internal/utils/string/split {split: " ", input: "entity @s data.input[0]", output: "entity @s data.split"}
 data remove entity @s data.input[0]

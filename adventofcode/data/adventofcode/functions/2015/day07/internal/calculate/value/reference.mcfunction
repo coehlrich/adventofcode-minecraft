@@ -1,0 +1,2 @@
+data modify storage adventofcode:2015 day07.data.call.wire_name set from storage adventofcode:2015 day07.calculate.value.value
+function adventofcode:2015/day07/internal/calculate/lookup with storage adventofcode:2015 day07.data.call

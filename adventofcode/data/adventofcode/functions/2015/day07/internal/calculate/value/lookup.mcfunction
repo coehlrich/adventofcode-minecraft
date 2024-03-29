@@ -1,0 +1,2 @@
+execute if predicate adventofcode:2015/day07/calculate/is_direct run return run function adventofcode:2015/day07/internal/calculate/value/direct
+execute if predicate adventofcode:2015/day07/calculate/is_reference run return run function adventofcode:2015/day07/internal/calculate/value/reference

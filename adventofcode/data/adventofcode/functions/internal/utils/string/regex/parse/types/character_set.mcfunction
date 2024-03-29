@@ -4,6 +4,6 @@ data modify storage adventofcode:string/regex current.parse.stack append value {
 #execute if data storage adventofcode:string/regex current.parse{peeked_char: "^"} run function adventofcode:internal/utils/string/regex/parse/read_char
 
 function adventofcode:internal/utils/string/regex/parse/types/character_set/loop
-
 function adventofcode:internal/utils/string/regex/parse/read_char
+function adventofcode:internal/utils/string/regex/parse/read_quantifier
 return 1

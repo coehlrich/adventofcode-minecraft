@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:operation/from_binary",
+        "path": "data.value[0]"
+    },
+    "range": 1
+}
