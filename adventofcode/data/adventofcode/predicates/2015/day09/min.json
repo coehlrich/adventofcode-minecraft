@@ -1,0 +1,15 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015",
+        "path": "day09.current[-1].distance"
+    },
+    "range": {
+        "max": {
+            "type": "storage",
+            "storage": "adventofcode:2015",
+            "path": "day09.output.part1"
+        }
+    }
+}

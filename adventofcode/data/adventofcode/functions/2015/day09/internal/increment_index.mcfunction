@@ -1,0 +1,1 @@
+function adventofcode:internal/utils/operation/increment {input: "storage adventofcode:2015 day09.parsing.base_index"}

@@ -1,0 +1,11 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:is_success",
+        "path": "result"
+    },
+    "range": {
+        "min": 1
+    }
+}

@@ -1,5 +1,7 @@
 #say entering
 #tellraw @a {"storage": "adventofcode:string/regex", "nbt": "current.find"}
+
+#TODO: implement min matches
 data modify storage adventofcode:string/regex current.find.stack[-1].tokens_stack append value []
 data modify storage adventofcode:string/regex current.find.stack[-1].tokens_stack[-1] append from storage adventofcode:string/regex current.find.stack[-1].tokens_stack[-2][0].token
 execute if function adventofcode:internal/utils/string/regex/find/match_token run return 1
