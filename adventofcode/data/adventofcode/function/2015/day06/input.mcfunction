@@ -298,5 +298,5 @@ data modify storage adventofcode:2015 day06.input set value [\
 	"turn off 820,663 through 832,982",\
 	"turn on 550,460 through 964,782",\
 	"turn on 31,760 through 655,892",\
-	"toggle 628,958 through 811,992",\
+	"toggle 628,958 through 811,992"\
 ]
