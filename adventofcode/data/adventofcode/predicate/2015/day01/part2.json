@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day01",
+        "path": "value[0]"
+    },
+    "range": 1
+}

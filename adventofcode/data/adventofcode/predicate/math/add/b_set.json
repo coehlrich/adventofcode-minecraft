@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:math/add",
+        "path": "in.b[-1]"
+    },
+    "range": 1
+}

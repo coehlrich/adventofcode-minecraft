@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:math/to_number",
+        "path": "negative"
+    },
+    "range": 1
+}

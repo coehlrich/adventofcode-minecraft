@@ -1,0 +1,19 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "sum",
+        "summands": [
+            {
+                "type": "storage",
+                "storage": "adventofcode:math/xor",
+                "path": "in.a[0]"
+            },
+            {
+                "type": "storage",
+                "storage": "adventofcode:math/xor",
+                "path": "in.b[0]"
+            }
+        ]
+    },
+    "range": 1
+}
