@@ -1,0 +1,329 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "sum",
+        "summands": [
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[0]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[1]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[2]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[3]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[4]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[5]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[6]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[7]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[8]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[9]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[10]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[11]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[12]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[13]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[14]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[15]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[16]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[17]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[18]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[19]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[20]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[21]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[22]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[23]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[24]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[25]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[26]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[27]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[28]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[29]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[30]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[31]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[32]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[33]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[34]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[35]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[36]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[37]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[38]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[39]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[40]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[41]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[42]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[43]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[44]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[45]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[46]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[47]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[48]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[49]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[50]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[51]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[52]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[53]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[54]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[55]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[56]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[57]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[58]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[59]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[60]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[61]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[62]"
+            },
+            {
+                "type": "minecraft:storage",
+                "storage": "adventofcode:math/compare/is_zero",
+                "path": "in[63]"
+            }
+        ]
+    },
+    "range": 0
+}

@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:math/sub",
+        "path": "carry"
+    },
+    "range": 1
+}

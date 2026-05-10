@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:math/add",
+        "path": "bit_sum[1]"
+    },
+    "range": 1
+}
