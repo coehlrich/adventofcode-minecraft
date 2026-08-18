@@ -1,0 +1,21 @@
+{
+    "type": "sum",
+    "operands": [
+        {
+            "type": "product",
+            "operands": [
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:math/from_number",
+                    "path": "out.number"
+                },
+                10
+            ]
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:math/from_number",
+            "path": "current_num"
+        }
+    ]
+}

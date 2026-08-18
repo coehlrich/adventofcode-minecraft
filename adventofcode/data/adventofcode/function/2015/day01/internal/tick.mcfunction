@@ -1,15 +1,9 @@
 data modify storage adventofcode:2015/day01 current set string storage adventofcode:2015/day01 input 0 1
 
-data modify storage adventofcode:math/add in.a set from storage adventofcode:2015/day01 value
-execute if data storage adventofcode:2015/day01 {current: "("} run data modify storage adventofcode:math/add in.b set from storage adventofcode:math/constants 1
-execute if data storage adventofcode:2015/day01 {current: ")"} run data modify storage adventofcode:math/add in.b set from storage adventofcode:math/constants -1
-function adventofcode:internal/utils/math/add
-data modify storage adventofcode:2015/day01 value set from storage adventofcode:math/add out
+execute if data storage adventofcode:2015/day01 {current: "("} store result storage adventofcode:2015/day01 value int 1 run number adventofcode:2015/day01/increment_one
+execute if data storage adventofcode:2015/day01 {current: ")"} store result storage adventofcode:2015/day01 value int 1 run number adventofcode:2015/day01/decrement_one
 
-data modify storage adventofcode:math/add in.a set from storage adventofcode:2015/day01 step
-data modify storage adventofcode:math/add in.b set from storage adventofcode:math/constants 1
-function adventofcode:internal/utils/math/add
-data modify storage adventofcode:2015/day01 step set from storage adventofcode:math/add out
+execute store result storage adventofcode:2015/day01 step int 1 run number adventofcode:2015/day01/increment_step
 
 execute unless data storage adventofcode:2015/day01 result.part2 if predicate adventofcode:2015/day01/part2 run function adventofcode:2015/day01/internal/part2
 
