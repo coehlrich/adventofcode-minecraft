@@ -1,0 +1,46 @@
+{
+    "type": "sum",
+    "operands": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day02",
+            "path": "result.part2"
+        },
+        {
+            "type": "product",
+            "operands": [
+                2,
+                {
+                    "type": "sum",
+                    "operands": [
+                        "adventofcode:2015/day02/l",
+                        "adventofcode:2015/day02/w",
+                        "adventofcode:2015/day02/h",
+                        {
+                            "type": "product",
+                            "operands": [
+                                -1,
+                                {
+                                    "type": "maximum",
+                                    "operands": [
+                                        "adventofcode:2015/day02/l",
+                                        "adventofcode:2015/day02/w",
+                                        "adventofcode:2015/day02/h"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "product",
+            "operands": [
+                "adventofcode:2015/day02/l",
+                "adventofcode:2015/day02/w",
+                "adventofcode:2015/day02/h"
+            ]
+        }
+    ]
+}

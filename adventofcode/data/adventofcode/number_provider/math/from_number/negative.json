@@ -1,0 +1,11 @@
+{
+    "type": "product",
+    "operands": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:math/from_number",
+            "path": "out.number"
+        },
+        -1
+    ]
+}

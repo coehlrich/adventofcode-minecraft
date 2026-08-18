@@ -1,8 +1,8 @@
 {
-    "condition": "value_check",
+    "type": "value_check",
     "value": {
         "type": "sum",
-        "summands": [
+        "operands": [
             {
                 "type": "storage",
                 "storage": "adventofcode:math/div",

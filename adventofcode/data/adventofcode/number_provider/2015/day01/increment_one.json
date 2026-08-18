@@ -1,0 +1,11 @@
+{
+    "type": "sum",
+    "operands": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day01",
+            "path": "value"
+        },
+        1
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "condition": "all_of",
+    "type": "all_of",
     "terms": [
         {
-            "condition": "value_check",
+            "type": "value_check",
             "value": {
                 "type": "storage",
                 "storage": "adventofcode:2015",
@@ -11,7 +11,7 @@
             "range": 1
         },
         {
-            "condition": "value_check",
+            "type": "value_check",
             "value": {
                 "type": "storage",
                 "storage": "adventofcode:2015",
