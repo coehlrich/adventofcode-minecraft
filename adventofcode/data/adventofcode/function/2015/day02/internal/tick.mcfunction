@@ -13,8 +13,8 @@ data modify storage adventofcode:math/from_number in set string storage adventof
 function adventofcode:internal/utils/math/from_number
 data modify storage adventofcode:2015/day02 h set from storage adventofcode:math/from_number out.number
 
-execute store result storage adventofcode:2015/day02 result.part1 int 1 run number adventofcode:2015/day02/part1
-execute store result storage adventofcode:2015/day02 result.part2 int 1 run number adventofcode:2015/day02/part2
+data modify storage adventofcode:2015/day02 result.part1 set compute default integer adventofcode:2015/day02/part1
+data modify storage adventofcode:2015/day02 result.part2 set compute default integer adventofcode:2015/day02/part2
 execute store result bossbar adventofcode:progress value run data get storage adventofcode:2015/day02 input
 
 execute if data storage adventofcode:2015/day02 input[0] run schedule function adventofcode:2015/day02/internal/tick 1t

@@ -1,55 +1,55 @@
 {
-    "type": "sum",
-    "operands": [
+    "type": "add",
+    "inputs": [
         {
             "type": "storage",
             "storage": "adventofcode:2015/day02",
             "path": "result.part1"
         },
         {
-            "type": "product",
-            "operands": [
+            "type": "mul",
+            "inputs": [
                 2,
                 "adventofcode:2015/day02/l",
                 "adventofcode:2015/day02/w"
             ]
         },
         {
-            "type": "product",
-            "operands": [
+            "type": "mul",
+            "inputs": [
                 2,
                 "adventofcode:2015/day02/w",
                 "adventofcode:2015/day02/h"
             ]
         },
         {
-            "type": "product",
-            "operands": [
+            "type": "mul",
+            "inputs": [
                 2,
                 "adventofcode:2015/day02/h",
                 "adventofcode:2015/day02/l"
             ]
         },
         {
-            "type": "minimum",
-            "operands": [
+            "type": "min",
+            "inputs": [
                 {
-                    "type": "product",
-                    "operands": [
+                    "type": "mul",
+                    "inputs": [
                         "adventofcode:2015/day02/l",
                         "adventofcode:2015/day02/w"
                     ]
                 },
                 {
-                    "type": "product",
-                    "operands": [
+                    "type": "mul",
+                    "inputs": [
                         "adventofcode:2015/day02/w",
                         "adventofcode:2015/day02/h"
                     ]
                 },
                 {
-                    "type": "product",
-                    "operands": [
+                    "type": "mul",
+                    "inputs": [
                         "adventofcode:2015/day02/h",
                         "adventofcode:2015/day02/l"
                     ]
