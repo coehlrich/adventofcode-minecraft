@@ -1,8 +1,8 @@
 {
-    "type": "value_check",
+    "type": "int_value_check",
     "value": {
-        "type": "sum",
-        "operands": [
+        "type": "add",
+        "inputs": [
             {
                 "type": "storage",
                 "storage": "adventofcode:math/compare/gte",
@@ -15,5 +15,5 @@
             }
         ]
     },
-    "range": 1
+    "test": 1
 }

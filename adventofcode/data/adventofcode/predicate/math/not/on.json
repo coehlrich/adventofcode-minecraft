@@ -1,9 +1,9 @@
 {
-    "type": "value_check",
+    "type": "int_value_check",
     "value": {
         "type": "storage",
         "storage": "adventofcode:math/not",
         "path": "in[0]"
     },
-    "range": 0
+    "test": 0
 }

@@ -1,6 +1,6 @@
 {
-    "type": "sum",
-    "operands": [
+    "type": "add",
+    "inputs": [
         {
             "type": "storage",
             "storage": "adventofcode:2015/day01",

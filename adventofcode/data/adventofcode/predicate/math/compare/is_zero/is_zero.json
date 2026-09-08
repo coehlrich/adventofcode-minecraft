@@ -1,8 +1,8 @@
 {
-    "type": "value_check",
+    "type": "int_value_check",
     "value": {
-        "type": "sum",
-        "operands": [
+        "type": "add",
+        "inputs": [
             {
                 "type": "minecraft:storage",
                 "storage": "adventofcode:math/compare/is_zero",
@@ -325,5 +325,5 @@
             }
         ]
     },
-    "range": 0
+    "test": 0
 }

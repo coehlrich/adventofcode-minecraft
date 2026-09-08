@@ -1,9 +1,9 @@
 {
-    "type": "sum",
-    "operands": [
+    "type": "add",
+    "inputs": [
         {
-            "type": "product",
-            "operands": [
+            "type": "mul",
+            "inputs": [
                 {
                     "type": "storage",
                     "storage": "adventofcode:math/from_number",

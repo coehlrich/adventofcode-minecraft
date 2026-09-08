@@ -1,28 +1,28 @@
 {
-    "type": "sum",
-    "operands": [
+    "type": "add",
+    "inputs": [
         {
             "type": "storage",
             "storage": "adventofcode:2015/day02",
             "path": "result.part2"
         },
         {
-            "type": "product",
-            "operands": [
+            "type": "mul",
+            "inputs": [
                 2,
                 {
-                    "type": "sum",
-                    "operands": [
+                    "type": "add",
+                    "inputs": [
                         "adventofcode:2015/day02/l",
                         "adventofcode:2015/day02/w",
                         "adventofcode:2015/day02/h",
                         {
-                            "type": "product",
-                            "operands": [
+                            "type": "mul",
+                            "inputs": [
                                 -1,
                                 {
-                                    "type": "maximum",
-                                    "operands": [
+                                    "type": "max",
+                                    "inputs": [
                                         "adventofcode:2015/day02/l",
                                         "adventofcode:2015/day02/w",
                                         "adventofcode:2015/day02/h"
@@ -35,8 +35,8 @@
             ]
         },
         {
-            "type": "product",
-            "operands": [
+            "type": "mul",
+            "inputs": [
                 "adventofcode:2015/day02/l",
                 "adventofcode:2015/day02/w",
                 "adventofcode:2015/day02/h"
