@@ -1,0 +1,196 @@
+{
+    "type": "number_dispatcher",
+    "cases": [
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 0
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[0]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 1
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[1]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 2
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[2]"
+            }
+        },{
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 3
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[3]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 4
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[4]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 5
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[5]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 6
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[6]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 7
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[7]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 8
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[8]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 9
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[9]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 10
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[10]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 11
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[11]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 12
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[12]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 13
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[13]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 14
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[14]"
+            }
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/g",
+                "test": 15
+            },
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "md5.add_chunk.M[15]"
+            }
+        }
+    ]
+}

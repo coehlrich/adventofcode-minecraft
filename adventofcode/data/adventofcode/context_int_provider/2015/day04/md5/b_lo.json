@@ -1,0 +1,23 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/values/b",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        },
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/rotate_f",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        }
+    ]
+}

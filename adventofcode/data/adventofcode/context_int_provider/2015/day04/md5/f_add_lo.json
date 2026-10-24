@@ -1,0 +1,41 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/values/f",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        },
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/values/a",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        },
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/k",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        },
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/m",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        }
+    ]
+}

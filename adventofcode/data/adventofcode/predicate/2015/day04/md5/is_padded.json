@@ -1,0 +1,13 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "mod",
+        "left": {
+            "type": "storage",
+            "storage": "adventofcode:2015/day04",
+            "path": "md5.pad_length"
+        },
+        "right": 64
+    },
+    "test": 56
+}

@@ -1,0 +1,517 @@
+{
+    "type": "number_dispatcher",
+    "cases": [
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 0
+            },
+            "value": 7
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 1
+            },
+            "value": 12
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 2
+            },
+            "value": 17
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 3
+            },
+            "value": 22
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 4
+            },
+            "value": 7
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 5
+            },
+            "value": 12
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 6
+            },
+            "value": 17
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 7
+            },
+            "value": 22
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 8
+            },
+            "value": 7
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 9
+            },
+            "value": 12
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 10
+            },
+            "value": 17
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 11
+            },
+            "value": 22
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 12
+            },
+            "value": 7
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 13
+            },
+            "value": 12
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 14
+            },
+            "value": 17
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 15
+            },
+            "value": 22
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 16
+            },
+            "value": 5
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 17
+            },
+            "value": 9
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 18
+            },
+            "value": 14
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 19
+            },
+            "value": 20
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 20
+            },
+            "value": 5
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 21
+            },
+            "value": 9
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 22
+            },
+            "value": 14
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 23
+            },
+            "value": 20
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 24
+            },
+            "value": 5
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 25
+            },
+            "value": 9
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 26
+            },
+            "value": 14
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 27
+            },
+            "value": 20
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 28
+            },
+            "value": 5
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 29
+            },
+            "value": 9
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 30
+            },
+            "value": 14
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 31
+            },
+            "value": 20
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 32
+            },
+            "value": 4
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 33
+            },
+            "value": 11
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 34
+            },
+            "value": 16
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 35
+            },
+            "value": 23
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 36
+            },
+            "value": 4
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 37
+            },
+            "value": 11
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 38
+            },
+            "value": 16
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 39
+            },
+            "value": 23
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 40
+            },
+            "value": 4
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 41
+            },
+            "value": 11
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 42
+            },
+            "value": 16
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 43
+            },
+            "value": 23
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 44
+            },
+            "value": 4
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 45
+            },
+            "value": 11
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 46
+            },
+            "value": 16
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 47
+            },
+            "value": 23
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 48
+            },
+            "value": 6
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 49
+            },
+            "value": 10
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 50
+            },
+            "value": 15
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 51
+            },
+            "value": 21
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 52
+            },
+            "value": 6
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 53
+            },
+            "value": 10
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 54
+            },
+            "value": 15
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 55
+            },
+            "value": 21
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 56
+            },
+            "value": 6
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 57
+            },
+            "value": 10
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 58
+            },
+            "value": 15
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 59
+            },
+            "value": 21
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 60
+            },
+            "value": 6
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 61
+            },
+            "value": 10
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 62
+            },
+            "value": 15
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 63
+            },
+            "value": 21
+        }
+    ]
+}

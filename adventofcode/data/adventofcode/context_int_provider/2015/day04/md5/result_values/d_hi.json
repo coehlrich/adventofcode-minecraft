@@ -1,0 +1,56 @@
+{
+    "type": "floor_mod",
+    "left": {
+        "type": "add",
+        "inputs": [
+            {
+                "type": "floor_mod",
+                "left": {
+                    "type": "floor_div",
+                    "left": "adventofcode:2015/day04/md5/values/d0",
+                    "right": {
+                        "type": "pow",
+                        "base": 2,
+                        "exponent": 16
+                    }
+                },
+                "right": {
+                    "type": "pow",
+                    "base": 2,
+                    "exponent": 16
+                }
+            },
+            {
+                "type": "floor_mod",
+                "left": {
+                    "type": "floor_div",
+                    "left": "adventofcode:2015/day04/md5/values/d",
+                    "right": {
+                        "type": "pow",
+                        "base": 2,
+                        "exponent": 16
+                    }
+                },
+                "right": {
+                    "type": "pow",
+                    "base": 2,
+                    "exponent": 16
+                }
+            },
+            {
+                "type": "floor_div",
+                "left": "adventofcode:2015/day04/md5/result_values/d_lo",
+                "right": {
+                    "type": "pow",
+                    "base": 2,
+                    "exponent": 16
+                }
+            }
+        ]
+    },
+    "right": {
+        "type": "pow",
+        "base": 2,
+        "exponent": 16
+    }
+}

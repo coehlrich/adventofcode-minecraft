@@ -1,0 +1,7 @@
+{
+    "type": "add",
+    "inputs": [
+        "adventofcode:2015/day04/md5/values/i",
+        1
+    ]
+}

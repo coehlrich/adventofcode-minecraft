@@ -1,0 +1,9 @@
+{
+    "type": "floor_mod",
+    "left": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day04",
+        "path": "md5.current_output.value"
+    },
+    "right": 256
+}

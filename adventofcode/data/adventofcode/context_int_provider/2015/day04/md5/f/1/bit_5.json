@@ -1,0 +1,31 @@
+{
+    "type": "conditional",
+    "condition": {
+        "type": "any_of",
+        "terms": [
+            {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day04/md5/main_loop/b/bit_5",
+                    "adventofcode:2015/day04/md5/main_loop/c/bit_5"
+                ]
+            },
+            {
+                "type": "all_of",
+                "terms": [
+                    {
+                        "type": "inverted",
+                        "term": "adventofcode:2015/day04/md5/main_loop/b/bit_5"
+                    },
+                    "adventofcode:2015/day04/md5/main_loop/d/bit_5"
+                ]
+            }
+        ]
+    },
+    "on_true": {
+        "type": "pow",
+        "base": 2,
+        "exponent": 5
+    },
+    "on_false": 0
+}

@@ -1,0 +1,3 @@
+data modify storage adventofcode:2015/day04 value_chars.result insert 0 compute default integer adventofcode:2015/day04/value_chars/char
+data modify storage adventofcode:2015/day04 value_chars.current set compute default integer adventofcode:2015/day04/value_chars/next
+execute unless data storage adventofcode:2015/day04 value_chars{current: 0} run function adventofcode:2015/day04/internal/convert_value_to_chars

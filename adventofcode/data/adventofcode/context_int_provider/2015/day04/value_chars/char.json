@@ -1,0 +1,15 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "mod",
+            "left": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day04",
+                "path": "value_chars.current"
+            },
+            "right": 10
+        },
+        48
+    ]
+}

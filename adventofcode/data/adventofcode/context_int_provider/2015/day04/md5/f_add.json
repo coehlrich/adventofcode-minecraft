@@ -1,0 +1,44 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "floor_mod",
+            "left": "adventofcode:2015/day04/md5/f_add_lo",
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 16
+            }
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "conditional",
+                    "condition": {
+                        "type": "int_value_check",
+                        "value": "adventofcode:2015/day04/md5/f_add_hi",
+                        "test": {
+                            "min": 32768
+                        }
+                    },
+                    "on_true": {
+                        "type": "sub",
+                        "left": "adventofcode:2015/day04/md5/f_add_hi",
+                        "right": {
+                            "type": "pow",
+                            "base": 2,
+                            "exponent": 16
+                        }
+                    },
+                    "on_false": "adventofcode:2015/day04/md5/f_add_hi"
+                },
+                {
+                    "type": "pow",
+                    "base": 2,
+                    "exponent": 16
+                }
+            ]
+        }
+    ]
+}

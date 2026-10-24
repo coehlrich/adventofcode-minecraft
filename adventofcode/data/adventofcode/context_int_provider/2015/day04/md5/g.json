@@ -1,0 +1,55 @@
+{
+    "type": "mod",
+    "left": {
+        "type": "number_dispatcher",
+        "cases": [
+            {
+                "condition": "adventofcode:2015/day04/md5/main_loop/first_set",
+                "value": "adventofcode:2015/day04/md5/values/i"
+            },
+            {
+                "condition": "adventofcode:2015/day04/md5/main_loop/second_set",
+                "value": {
+                    "type": "add",
+                    "inputs": [
+                        {
+                            "type": "mul",
+                            "inputs": [
+                                "adventofcode:2015/day04/md5/values/i",
+                                5
+                            ]
+                        },
+                        1
+                    ]
+                }
+            },
+            {
+                "condition": "adventofcode:2015/day04/md5/main_loop/third_set",
+                "value": {
+                    "type": "add",
+                    "inputs": [
+                        {
+                            "type": "mul",
+                            "inputs": [
+                                "adventofcode:2015/day04/md5/values/i",
+                                3
+                            ]
+                        },
+                        5
+                    ]
+                }
+            },
+            {
+                "condition": "adventofcode:2015/day04/md5/main_loop/fourth_set",
+                "value": {
+                    "type": "mul",
+                    "inputs": [
+                        "adventofcode:2015/day04/md5/values/i",
+                        7
+                    ]
+                }
+            }
+        ]
+    },
+    "right": 16
+}
