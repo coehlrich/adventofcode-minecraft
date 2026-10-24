@@ -1,0 +1,3 @@
+data modify storage adventofcode:2015/day04 md5.processed_input append compute default integer adventofcode:2015/day04/md5/add_length_byte
+data modify storage adventofcode:2015/day04 md5.append_length.byte set compute default integer adventofcode:2015/day04/md5/add_one_length_byte
+execute unless predicate adventofcode:2015/day04/md5/length_appended run function adventofcode:2015/day04/internal/md5/append_length

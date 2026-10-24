@@ -1,0 +1,517 @@
+{
+    "type": "number_dispatcher",
+    "cases": [
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 0
+            },
+            "value": -680876936
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 1
+            },
+            "value": -389564586
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 2
+            },
+            "value": 606105819
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 3
+            },
+            "value": -1044525330
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 4
+            },
+            "value": -176418897
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 5
+            },
+            "value": 1200080426
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 6
+            },
+            "value": -1473231341
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 7
+            },
+            "value": -45705983
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 8
+            },
+            "value": 1770035416
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 9
+            },
+            "value": -1958414417
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 10
+            },
+            "value": -42063
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 11
+            },
+            "value": -1990404162
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 12
+            },
+            "value": 1804603682
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 13
+            },
+            "value": -40341101
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 14
+            },
+            "value": -1502002290
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 15
+            },
+            "value": 1236535329
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 16
+            },
+            "value": -165796510
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 17
+            },
+            "value": -1069501632
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 18
+            },
+            "value": 643717713
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 19
+            },
+            "value": -373897302
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 20
+            },
+            "value": -701558691
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 21
+            },
+            "value": 38016083
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 22
+            },
+            "value": -660478335
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 23
+            },
+            "value": -405537848
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 24
+            },
+            "value": 568446438
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 25
+            },
+            "value": -1019803690
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 26
+            },
+            "value": -187363961
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 27
+            },
+            "value": 1163531501
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 28
+            },
+            "value": -1444681467
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 29
+            },
+            "value": -51403784
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 30
+            },
+            "value": 1735328473
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 31
+            },
+            "value": -1926607734
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 32
+            },
+            "value": -378558
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 33
+            },
+            "value": -2022574463
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 34
+            },
+            "value": 1839030562
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 35
+            },
+            "value": -35309556
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 36
+            },
+            "value": -1530992060
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 37
+            },
+            "value": 1272893353
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 38
+            },
+            "value": -155497632
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 39
+            },
+            "value": -1094730640
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 40
+            },
+            "value": 681279174
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 41
+            },
+            "value": -358537222
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 42
+            },
+            "value": -722521979
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 43
+            },
+            "value": 76029189
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 44
+            },
+            "value": -640364487
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 45
+            },
+            "value": -421815835
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 46
+            },
+            "value": 530742520
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 47
+            },
+            "value": -995338651
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 48
+            },
+            "value": -198630844
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 49
+            },
+            "value": 1126891415
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 50
+            },
+            "value": -1416354905
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 51
+            },
+            "value": -57434055
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 52
+            },
+            "value": 1700485571
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 53
+            },
+            "value": -1894986606
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 54
+            },
+            "value": -1051523
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 55
+            },
+            "value": -2054922799
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 56
+            },
+            "value": 1873313359
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 57
+            },
+            "value": -30611744
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 58
+            },
+            "value": -1560198380
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 59
+            },
+            "value": 1309151649
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 60
+            },
+            "value": -145523070
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 61
+            },
+            "value": -1120210379
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 62
+            },
+            "value": 718787259
+        },
+        {
+            "condition": {
+                "type": "int_value_check",
+                "value": "adventofcode:2015/day04/md5/values/i",
+                "test": 63
+            },
+            "value": -343485551
+        }
+    ]
+}

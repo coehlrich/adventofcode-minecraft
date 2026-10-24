@@ -1,0 +1,39 @@
+{
+    "type": "conditional",
+    "condition": {
+        "type": "int_value_check",
+        "value": {
+            "type": "add",
+            "inputs": [
+                {
+                    "type": "conditional",
+                    "condition": "adventofcode:2015/day04/md5/main_loop/c/bit_0",
+                    "on_true": 1,
+                    "on_false": 0
+                },
+                {
+                    "type": "conditional",
+                    "condition": {
+                        "type": "any_of",
+                        "terms": [
+                            "adventofcode:2015/day04/md5/main_loop/b/bit_0",
+                            {
+                                "type": "inverted",
+                                "term": "adventofcode:2015/day04/md5/main_loop/d/bit_0"
+                            }
+                        ]
+                    },
+                    "on_true": 1,
+                    "on_false": 0
+                }
+            ]
+        },
+        "test": 1
+    },
+    "on_true": {
+        "type": "pow",
+        "base": 2,
+        "exponent": 0
+    },
+    "on_false": 0
+}

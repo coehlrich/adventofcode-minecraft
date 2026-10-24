@@ -1,0 +1,8 @@
+{
+    "type": "int_value_check",
+    "value": "adventofcode:2015/day04/md5/values/i",
+    "test": {
+        "min": 0,
+        "max": 63
+    }
+}

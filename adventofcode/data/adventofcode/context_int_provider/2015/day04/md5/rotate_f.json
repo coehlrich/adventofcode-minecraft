@@ -1,0 +1,108 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "floor_mod",
+            "left": {
+                "type": "floor_div",
+                "left": "adventofcode:2015/day04/md5/values/f",
+                "right": {
+                    "type": "pow",
+                    "base": 2,
+                    "exponent": {
+                        "type": "sub",
+                        "left": 32,
+                        "right": "adventofcode:2015/day04/md5/s"
+                    }
+                }
+            },
+            "right": {
+                "type": "pow",
+                "base": 2,
+                "exponent": "adventofcode:2015/day04/md5/s"
+            }
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "conditional",
+                    "condition": {
+                        "type": "int_value_check",
+                        "value": {
+                            "type": "floor_mod",
+                            "left": "adventofcode:2015/day04/md5/values/f",
+                            "right": {
+                                "type": "pow",
+                                "base": 2,
+                                "exponent": {
+                                    "type": "sub",
+                                    "left": 32,
+                                    "right": "adventofcode:2015/day04/md5/s"
+                                }
+                            }
+                        },
+                        "test": {
+                            "min": {
+                                "type": "pow",
+                                "base": 2,
+                                "exponent": {
+                                    "type": "sub",
+                                    "left": {
+                                        "type": "sub",
+                                        "left": 32,
+                                        "right": "adventofcode:2015/day04/md5/s"
+                                    },
+                                    "right": 1
+                                }
+                            }
+                        }
+                    },
+                    "on_true": {
+                        "type": "sub",
+                        "left": {
+                            "type": "floor_mod",
+                            "left": "adventofcode:2015/day04/md5/values/f",
+                            "right": {
+                                "type": "pow",
+                                "base": 2,
+                                "exponent": {
+                                    "type": "sub",
+                                    "left": 32,
+                                    "right": "adventofcode:2015/day04/md5/s"
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": "pow",
+                            "base": 2,
+                            "exponent": {
+                                "type": "sub",
+                                "left": 32,
+                                "right": "adventofcode:2015/day04/md5/s"
+                            }
+                        }
+                    },
+                    "on_false": {
+                        "type": "floor_mod",
+                        "left": "adventofcode:2015/day04/md5/values/f",
+                        "right": {
+                            "type": "pow",
+                            "base": 2,
+                            "exponent": {
+                                "type": "sub",
+                                "left": 32,
+                                "right": "adventofcode:2015/day04/md5/s"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "pow",
+                    "base": 2,
+                    "exponent": "adventofcode:2015/day04/md5/s"
+                }
+            ]
+        }
+    ]
+}

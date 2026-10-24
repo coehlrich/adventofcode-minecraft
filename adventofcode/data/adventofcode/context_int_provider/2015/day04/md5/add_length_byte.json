@@ -1,0 +1,33 @@
+{
+    "type": "mod",
+    "left": {
+        "type": "div",
+        "left": {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day04",
+                    "path": "md5.length"
+                },
+                8
+            ]
+        },
+        "right": {
+            "type": "pow",
+            "base": 2,
+            "exponent": {
+                "type": "mul",
+                "inputs": [
+                    {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day04",
+                        "path": "md5.append_length.byte"
+                    },
+                    8
+                ]
+            }
+        }
+    },
+    "right": 256
+}
