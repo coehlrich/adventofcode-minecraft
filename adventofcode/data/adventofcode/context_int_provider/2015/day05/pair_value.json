@@ -1,0 +1,21 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day05",
+            "path": "current.input[0]"
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day05",
+                    "path": "current.input[1]"
+                },
+                256
+            ]
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[0]"
+                    },
+                    "test": 97
+                },
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[1]"
+                    },
+                    "test": 98
+                }
+            ]
+        },
+                {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[0]"
+                    },
+                    "test": 99
+                },
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[1]"
+                    },
+                    "test": 100
+                }
+            ]
+        },
+                {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[0]"
+                    },
+                    "test": 112
+                },
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[1]"
+                    },
+                    "test": 113
+                }
+            ]
+        },
+                {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[0]"
+                    },
+                    "test": 120
+                },
+                {
+                    "type": "int_value_check",
+                    "value": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day05",
+                        "path": "current.input[1]"
+                    },
+                    "test": 121
+                }
+            ]
+        }
+    ]
+}

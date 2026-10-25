@@ -1,0 +1,50 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.input[0]"
+            },
+            "test": 97
+        },
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.input[0]"
+            },
+            "test": 101
+        },
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.input[0]"
+            },
+            "test": 105
+        },
+                {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.input[0]"
+            },
+            "test": 111
+        },
+                {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.input[0]"
+            },
+            "test": 117
+        }
+    ]
+}
