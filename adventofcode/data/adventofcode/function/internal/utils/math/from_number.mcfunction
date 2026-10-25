@@ -7,4 +7,4 @@ execute if data storage adventofcode:math/from_number {negative: true} run data 
 
 function adventofcode:internal/utils/math/from_number/loop
 
-execute if data storage adventofcode:math/from_number {negative: true} store result storage adventofcode:math/from_number out.number int 1 run number adventofcode:math/from_number/negative
+execute if data storage adventofcode:math/from_number {negative: true} run data modify storage adventofcode:math/from_number out.number set compute default integer adventofcode:math/from_number/negative
