@@ -1,4 +1,3 @@
-$data modify storage adventofcode:string/to_int current.char set value "$(char)"
 execute if data storage adventofcode:string/to_int {current: {char: " "}} run return 32
 execute if data storage adventofcode:string/to_int {current: {char: "!"}} run return 33
 execute if data storage adventofcode:string/to_int {current: {char: "\""}} run return 34
