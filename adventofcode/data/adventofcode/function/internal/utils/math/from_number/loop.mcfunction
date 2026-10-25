@@ -6,6 +6,6 @@ execute if data storage adventofcode:math/from_number {current_num: -1} run retu
 
 data modify storage adventofcode:math/from_number out.remaining set string storage adventofcode:math/from_number out.remaining 1
 
-execute store result storage adventofcode:math/from_number out.number int 1 run number adventofcode:math/from_number/add_next
+data modify storage adventofcode:math/from_number out.number set compute default integer adventofcode:math/from_number/add_next
 
 function adventofcode:internal/utils/math/from_number/loop

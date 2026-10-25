@@ -1,1 +1,0 @@
-return run execute if predicate adventofcode:math/compare/is_zero/is_zero
