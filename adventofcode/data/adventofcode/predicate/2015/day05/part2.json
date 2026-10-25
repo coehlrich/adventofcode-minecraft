@@ -1,0 +1,27 @@
+{
+    "type": "all_of",
+    "terms": [
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.repeated_with_one"
+            },
+            "test": {
+                "min": 1
+            }
+        },
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.pair_repeated"
+            },
+            "test": {
+                "min": 1
+            }
+        }
+    ]
+}

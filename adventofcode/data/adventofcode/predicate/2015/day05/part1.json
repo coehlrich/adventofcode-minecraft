@@ -1,0 +1,38 @@
+{
+    "type": "all_of",
+    "terms": [
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.vowel"
+            },
+            "test": {
+                "min": 3
+            }
+        },
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.repeated"
+            },
+            "test": {
+                "min": 1
+            }
+        },
+        {
+            "type": "int_value_check",
+            "value": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day05",
+                "path": "current.combo"
+            },
+            "test": {
+                "max": 0
+            }
+        }
+    ]
+}
