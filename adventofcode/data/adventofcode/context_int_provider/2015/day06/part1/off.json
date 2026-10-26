@@ -1,0 +1,9 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day06",
+        "path": "result.part1"
+    },
+    "right": 1
+}
