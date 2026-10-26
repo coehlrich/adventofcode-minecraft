@@ -1,0 +1,11 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day06",
+            "path": "result.part1"
+        },
+        1
+    ]
+}

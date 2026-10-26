@@ -1,0 +1,4 @@
+execute if block ~ ~ ~ white_concrete positioned ~ ~1 ~ run return run function adventofcode:2015/day06/internal/update_area/part2/run_instruction
+execute if data storage adventofcode:2015/day06 instruction{type: "off"} run return run execute if block ~ ~-1 ~ white_concrete run function adventofcode:2015/day06/internal/update_area/part2/off
+execute if data storage adventofcode:2015/day06 instruction{type: "on"} run return run function adventofcode:2015/day06/internal/update_area/part2/on
+execute if data storage adventofcode:2015/day06 instruction{type: "toggle"} run return run function adventofcode:2015/day06/internal/update_area/part2/toggle

@@ -1,0 +1,2 @@
+data modify storage adventofcode:string/to_int_array output set value []
+execute unless data storage adventofcode:string/to_int_array {input: ""} run function adventofcode:internal/utils/string/to_int_array/loop

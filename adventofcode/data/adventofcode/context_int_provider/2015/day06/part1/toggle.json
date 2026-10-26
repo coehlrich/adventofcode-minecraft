@@ -1,0 +1,23 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day06",
+            "path": "result.part1"
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": "black_concrete"
+                    }
+                }
+            },
+            "on_true": 1,
+            "on_false": -1
+        }
+    ]
+}

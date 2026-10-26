@@ -1,0 +1,1 @@
+$execute positioned ~$(fromx) ~ ~$(fromz) summon marker run function adventofcode:2015/day06/internal/update_area/move_along_x
