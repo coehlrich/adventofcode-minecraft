@@ -1,1 +1,1 @@
-data modify storage adventofcode:2015 day07.calculate.result set from storage adventofcode:2015 day07.calculate.value.value
+data modify storage adventofcode:2015/day07 calculate.result set from storage adventofcode:2015/day07 calculate.value.value

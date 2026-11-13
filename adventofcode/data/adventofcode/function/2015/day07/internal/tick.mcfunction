@@ -1,3 +1,5 @@
-execute if data storage adventofcode:2015 day07.input[0] run schedule function adventofcode:2015/day07/internal/tick 1t replace
-execute unless data storage adventofcode:2015 day07.input[0] run return run function adventofcode:2015/day07/internal/finish
-function adventofcode:2015/day07/internal/read_line
+execute unless data storage adventofcode:2015/day07 calculate.stack[-1].inputs[0] run return run function adventofcode:2015/day07/internal/calculate/calculate with storage adventofcode:2015/day07 calculate.stack[-1]
+data modify storage adventofcode:2015/day07 calculate.stack[-1].input set from storage adventofcode:2015/day07 calculate.stack[-1].inputs[0]
+data remove storage adventofcode:2015/day07 calculate.stack[-1].inputs[0]
+execute if data storage adventofcode:2015/day07 calculate.stack[-1].input{type: "direct"} run return run function adventofcode:2015/day07/internal/calculate/input_direct
+execute if data storage adventofcode:2015/day07 calculate.stack[-1].input{type: "reference"} run return run function adventofcode:2015/day07/internal/calculate/input_reference with storage adventofcode:2015/day07 calculate.stack[-1].input

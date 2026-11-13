@@ -1,0 +1,5 @@
+{
+    "type": "storage",
+    "storage": "adventofcode:2015/day07",
+    "path": "calculate.stack[-1].values[0]"
+}

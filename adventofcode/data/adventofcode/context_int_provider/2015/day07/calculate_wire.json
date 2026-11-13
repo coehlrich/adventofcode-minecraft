@@ -1,0 +1,65 @@
+{
+    "type": "floor_mod",
+    "left": {
+        "type": "number_dispatcher",
+        "cases": [
+            {
+                "condition": "adventofcode:2015/day07/calculate/is_direct",
+                "value": "adventofcode:2015/day07/values/0"
+            },
+            {
+                "condition": "adventofcode:2015/day07/calculate/is_or",
+                "value": {
+                    "type": "sub",
+                    "left": {
+                        "type": "add",
+                        "inputs": [
+                            "adventofcode:2015/day07/values/0",
+                            "adventofcode:2015/day07/values/1"
+                        ]
+                    },
+                    "right": "adventofcode:2015/day07/calculate_and"
+                }
+            },
+            {
+                "condition": "adventofcode:2015/day07/calculate/is_and",
+                "value": "adventofcode:2015/day07/calculate_and"
+            },
+            {
+                "condition": "adventofcode:2015/day07/calculate/is_not",
+                "value": {
+                    "type": "sub",
+                    "left": 65535,
+                    "right": "adventofcode:2015/day07/values/0"
+                }
+            },
+            {
+                "condition": "adventofcode:2015/day07/calculate/is_lshift",
+                "value": {
+                    "type": "mul",
+                    "inputs": [
+                        "adventofcode:2015/day07/values/0",
+                        {
+                            "type": "pow",
+                            "base": 2,
+                            "exponent": "adventofcode:2015/day07/values/1"
+                        }
+                    ]
+                }
+            },
+            {
+                "condition": "adventofcode:2015/day07/calculate/is_rshift",
+                "value": {
+                    "type": "floor_div",
+                    "left": "adventofcode:2015/day07/values/0",
+                    "right": {
+                        "type": "pow",
+                        "base": 2,
+                        "exponent": "adventofcode:2015/day07/values/1"
+                    }
+                }
+            }
+        ]
+    },
+    "right": 65536
+}

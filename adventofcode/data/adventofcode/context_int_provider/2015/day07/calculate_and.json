@@ -1,0 +1,261 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_0",
+                    "adventofcode:2015/day07/calculate/values/1/bit_0"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 0
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_1",
+                    "adventofcode:2015/day07/calculate/values/1/bit_1"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 1
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_2",
+                    "adventofcode:2015/day07/calculate/values/1/bit_2"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 2
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_3",
+                    "adventofcode:2015/day07/calculate/values/1/bit_3"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 3
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_4",
+                    "adventofcode:2015/day07/calculate/values/1/bit_4"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 4
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_5",
+                    "adventofcode:2015/day07/calculate/values/1/bit_5"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 5
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_6",
+                    "adventofcode:2015/day07/calculate/values/1/bit_6"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 6
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_7",
+                    "adventofcode:2015/day07/calculate/values/1/bit_7"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 7
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_8",
+                    "adventofcode:2015/day07/calculate/values/1/bit_8"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 8
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_9",
+                    "adventofcode:2015/day07/calculate/values/1/bit_9"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 9
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_10",
+                    "adventofcode:2015/day07/calculate/values/1/bit_10"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 10
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_11",
+                    "adventofcode:2015/day07/calculate/values/1/bit_11"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 11
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_12",
+                    "adventofcode:2015/day07/calculate/values/1/bit_12"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 12
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_13",
+                    "adventofcode:2015/day07/calculate/values/1/bit_13"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 13
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_14",
+                    "adventofcode:2015/day07/calculate/values/1/bit_14"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 14
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "all_of",
+                "terms": [
+                    "adventofcode:2015/day07/calculate/values/0/bit_15",
+                    "adventofcode:2015/day07/calculate/values/1/bit_15"
+                ]
+            },
+            "on_true": {
+                "type": "pow",
+                "base": 2,
+                "exponent": 15
+            },
+            "on_false": 0
+        }
+    ]
+}

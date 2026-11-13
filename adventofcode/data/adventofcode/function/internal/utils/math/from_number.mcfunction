@@ -5,6 +5,10 @@ data modify storage adventofcode:math/from_number current_char set string storag
 execute if data storage adventofcode:math/from_number {current_char: "-"} run data modify storage adventofcode:math/from_number negative set value true
 execute if data storage adventofcode:math/from_number {negative: true} run data modify storage adventofcode:math/from_number out.remaining set string storage adventofcode:math/from_number out.remaining 1
 
+function adventofcode:internal/utils/math/from_number/check_number
+execute if data storage adventofcode:math/from_number {current_num: -1} run return fail
+
 function adventofcode:internal/utils/math/from_number/loop
 
 execute if data storage adventofcode:math/from_number {negative: true} run data modify storage adventofcode:math/from_number out.number set compute default integer adventofcode:math/from_number/negative
+return 1

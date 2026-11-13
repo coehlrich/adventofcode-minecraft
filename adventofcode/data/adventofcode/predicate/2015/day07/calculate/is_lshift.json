@@ -1,0 +1,9 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day07",
+        "path": "calculate.stack[-1].operation"
+    },
+    "test": 4
+}

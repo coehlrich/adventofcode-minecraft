@@ -1,20 +1,19 @@
-data modify storage adventofcode:string/regex current.input set from storage adventofcode:2015 day07.input[0]
-data remove storage adventofcode:2015 day07.input[0]
+data modify storage adventofcode:2015/day07 read.parse set value {}
+data modify storage adventofcode:2015/day07 read.current set from storage adventofcode:2015/day07 input[0]
+data modify storage adventofcode:2015/day07 read.parse.inputs set value []
 
-data modify storage adventofcode:string/regex current.regex set value "^([0-9a-z]+) -> ([a-z]+)"
-execute if function adventofcode:internal/utils/string/regex_set run return run function adventofcode:2015/day07/internal/read/operations/direct
+execute if function adventofcode:2015/day07/internal/read/read_input run data modify storage adventofcode:2015/day07 read.current set string storage adventofcode:2015/day07 read.current 1
 
-data modify storage adventofcode:string/regex current.regex set value "^([0-9a-z]+) AND ([0-9a-z]+) -> ([a-z]+)"
-execute if function adventofcode:internal/utils/string/regex_set run return run function adventofcode:2015/day07/internal/read/operations/and
+execute if function adventofcode:2015/day07/internal/read/read_operation run data modify storage adventofcode:2015/day07 read.current set string storage adventofcode:2015/day07 read.current 1
 
-data modify storage adventofcode:string/regex current.regex set value "^([0-9a-z]+) OR ([0-9a-z]+) -> ([a-z]+)"
-execute if function adventofcode:internal/utils/string/regex_set run return run function adventofcode:2015/day07/internal/read/operations/or
+execute unless data storage adventofcode:2015/day07 read.parse.operation run data modify storage adventofcode:2015/day07 read.parse.operation set value 0
 
-data modify storage adventofcode:string/regex current.regex set value "^([0-9a-z]+) LSHIFT ([0-9]+) -> ([a-z]+)"
-execute if function adventofcode:internal/utils/string/regex_set run return run function adventofcode:2015/day07/internal/read/operations/left_shift
+execute if function adventofcode:2015/day07/internal/read/read_input run data modify storage adventofcode:2015/day07 read.current set string storage adventofcode:2015/day07 read.current 1
 
-data modify storage adventofcode:string/regex current.regex set value "^([0-9a-z]+) RSHIFT ([0-9]+) -> ([a-z]+)"
-execute if function adventofcode:internal/utils/string/regex_set run return run function adventofcode:2015/day07/internal/read/operations/right_shift
+data modify storage adventofcode:2015/day07 read.current set string storage adventofcode:2015/day07 read.current 3
 
-data modify storage adventofcode:string/regex current.regex set value "^NOT ([0-9a-z]+) -> ([a-z]+)"
-execute if function adventofcode:internal/utils/string/regex_set run return run function adventofcode:2015/day07/internal/read/operations/not
+data modify storage adventofcode:2015/day07 read.parse.output set from storage adventofcode:2015/day07 read.current
+
+function adventofcode:2015/day07/internal/read/store with storage adventofcode:2015/day07 read.parse
+data remove storage adventofcode:2015/day07 input[0]
+execute if data storage adventofcode:2015/day07 input[0] run function adventofcode:2015/day07/internal/read_line

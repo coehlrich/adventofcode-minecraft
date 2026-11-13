@@ -1,0 +1,12 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day07",
+        "path": "read.char"
+    },
+    "test": {
+        "min": 97,
+        "max": 122
+    }
+}
