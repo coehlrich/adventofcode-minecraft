@@ -1,0 +1,19 @@
+{
+    "type": "add",
+    "inputs": [
+        "adventofcode:2015/day10/element/he",
+        "adventofcode:2015/day10/element/be",
+        "adventofcode:2015/day10/element/sc",
+        "adventofcode:2015/day10/element/ga",
+        "adventofcode:2015/day10/element/ga",
+        "adventofcode:2015/day10/element/zr",
+        "adventofcode:2015/day10/element/ru",
+        "adventofcode:2015/day10/element/te",
+        "adventofcode:2015/day10/element/ce",
+        "adventofcode:2015/day10/element/sm",
+        "adventofcode:2015/day10/element/gd",
+        "adventofcode:2015/day10/element/tm",
+        "adventofcode:2015/day10/element/ta",
+        "adventofcode:2015/day10/element/re"
+    ]
+}

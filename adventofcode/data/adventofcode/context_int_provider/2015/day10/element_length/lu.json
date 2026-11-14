@@ -1,0 +1,7 @@
+{
+    "type": "mul",
+    "inputs": [
+        "adventofcode:2015/day10/element/lu",
+        6
+    ]
+}

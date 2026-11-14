@@ -1,0 +1,1 @@
+data modify storage adventofcode:2015/day10 next_elements.Ce set compute default integer adventofcode:2015/day10/element_decay/ce

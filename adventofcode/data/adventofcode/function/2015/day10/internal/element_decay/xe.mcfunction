@@ -1,0 +1,1 @@
+data modify storage adventofcode:2015/day10 next_elements.Xe set compute default integer adventofcode:2015/day10/element_decay/xe

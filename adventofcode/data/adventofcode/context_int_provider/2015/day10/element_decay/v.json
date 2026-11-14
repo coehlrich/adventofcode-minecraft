@@ -1,0 +1,6 @@
+{
+    "type": "add",
+    "inputs": [
+        "adventofcode:2015/day10/element/cr"
+    ]
+}

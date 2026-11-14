@@ -1,0 +1,13 @@
+{
+    "type": "add",
+    "inputs": [
+        "adventofcode:2015/day10/element/p",
+        "adventofcode:2015/day10/element/sc",
+        "adventofcode:2015/day10/element/ge",
+        "adventofcode:2015/day10/element/rh",
+        "adventofcode:2015/day10/element/i",
+        "adventofcode:2015/day10/element/tb",
+        "adventofcode:2015/day10/element/er",
+        "adventofcode:2015/day10/element/rn"
+    ]
+}
