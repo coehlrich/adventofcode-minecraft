@@ -1,0 +1,1 @@
+$data remove storage adventofcode:2015/day09 solve.route[-1].next_remaining_locations[{location: "$(location)"}]

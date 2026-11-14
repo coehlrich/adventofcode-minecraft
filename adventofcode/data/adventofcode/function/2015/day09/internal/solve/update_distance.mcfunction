@@ -1,0 +1,2 @@
+$data modify storage adventofcode:2015/day09 solve.route[-1].this_distance set from storage adventofcode:2015/day09 distances.$(previous_location).$(location)
+data modify storage adventofcode:2015/day09 solve.route[-1].distance set compute default integer adventofcode:2015/day09/add_distance

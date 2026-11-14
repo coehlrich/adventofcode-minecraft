@@ -1,0 +1,4 @@
+$data modify storage adventofcode:2015/day09 distances.$(start).$(end) set from storage adventofcode:2015/day07 parse.distance
+$data modify storage adventofcode:2015/day09 distances.$(end).$(start) set from storage adventofcode:2015/day07 parse.distance
+$execute unless data storage adventofcode:2015/day09 locations[{location: "$(start)"}] run data modify storage adventofcode:2015/day09 locations append value {location: "$(start)"}
+$execute unless data storage adventofcode:2015/day09 locations[{location: "$(end)"}] run data modify storage adventofcode:2015/day09 locations append value {location: "$(end)"}

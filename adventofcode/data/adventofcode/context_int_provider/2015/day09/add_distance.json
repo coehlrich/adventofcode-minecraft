@@ -1,0 +1,15 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day09",
+            "path": "solve.route[-2].distance"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day09",
+            "path": "solve.route[-1].this_distance"
+        }
+    ]
+}
