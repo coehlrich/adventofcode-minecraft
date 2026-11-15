@@ -1,0 +1,15 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day12",
+            "path": "stack[-2].part1"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day12",
+            "path": "stack[-1].part1"
+        }
+    ]
+}

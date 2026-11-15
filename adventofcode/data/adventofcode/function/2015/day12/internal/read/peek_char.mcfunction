@@ -1,0 +1,1 @@
+data modify storage adventofcode:2015/day12 read.current_char set string storage adventofcode:2015/day12 read.remaining_string 0 1
