@@ -1,1 +1,0 @@
-scoreboard objectives add adventofcode-2015 dummy

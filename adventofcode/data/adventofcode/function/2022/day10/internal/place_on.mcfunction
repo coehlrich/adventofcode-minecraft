@@ -1,1 +1,0 @@
-$execute positioned ~$(column) ~ ~$(row) if block ~ ~10 ~ white_concrete run setblock ~ ~ ~ white_concrete

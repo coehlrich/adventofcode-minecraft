@@ -1,1 +1,0 @@
-$data modify $(output) set string $(input) $(start) $(end)

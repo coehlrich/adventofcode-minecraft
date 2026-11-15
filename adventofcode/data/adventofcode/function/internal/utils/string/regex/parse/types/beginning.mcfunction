@@ -1,1 +1,0 @@
-data modify storage adventofcode:string/regex current.parse.stack append value {type: "position", value: "beginning"}

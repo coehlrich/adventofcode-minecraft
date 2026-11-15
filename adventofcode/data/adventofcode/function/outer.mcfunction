@@ -1,1 +1,0 @@
-execute store result storage adventofcode:test int int 1 run function adventofcode:test

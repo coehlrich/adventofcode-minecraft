@@ -1,2 +1,0 @@
-data modify storage adventofcode:string/regex current.parse.stack append value {type: "literal"}
-data modify storage adventofcode:string/regex current.parse.stack[-1].value set from storage adventofcode:string/regex current.parse.current_char

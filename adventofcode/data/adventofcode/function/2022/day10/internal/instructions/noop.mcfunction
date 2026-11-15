@@ -1,1 +1,0 @@
-data modify entity @s data.cooldown set value 1
