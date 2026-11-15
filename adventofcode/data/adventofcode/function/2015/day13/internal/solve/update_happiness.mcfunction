@@ -1,0 +1,3 @@
+$data modify storage adventofcode:2015/day13 solve.table[-1].this_happiness set from storage adventofcode:2015/day13 happiness.$(previous_person).$(person)
+$data modify storage adventofcode:2015/day13 solve.table[-1].other_happiness set from storage adventofcode:2015/day13 happiness.$(person).$(previous_person)
+data modify storage adventofcode:2015/day13 solve.table[-1].happiness set compute default integer adventofcode:2015/day13/solve/add_happiness

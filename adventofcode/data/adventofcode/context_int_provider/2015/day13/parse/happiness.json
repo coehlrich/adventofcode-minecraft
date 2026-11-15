@@ -1,0 +1,15 @@
+{
+    "type": "mul",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:math/from_number",
+            "path": "out.number"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day13",
+            "path": "parse.gain"
+        }
+    ]
+}

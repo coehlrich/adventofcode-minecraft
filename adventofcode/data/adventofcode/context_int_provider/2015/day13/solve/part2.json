@@ -1,0 +1,15 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day13",
+            "path": "result.part2"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day13",
+            "path": "solve.table[-1].happiness"
+        }
+    ]
+}

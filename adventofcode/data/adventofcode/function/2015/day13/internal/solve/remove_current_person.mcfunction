@@ -1,0 +1,1 @@
+$data remove storage adventofcode:2015/day13 solve.table[-1].next_remaining_people[{person: "$(person)"}]

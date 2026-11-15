@@ -1,0 +1,2 @@
+$data modify storage adventofcode:2015/day13 happiness.$(person).$(other) set from storage adventofcode:2015/day13 parse.happiness
+$execute unless data storage adventofcode:2015/day13 people[{person: "$(person)"}] run data modify storage adventofcode:2015/day13 people append value {person: "$(person)"}

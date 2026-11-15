@@ -1,0 +1,20 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day13",
+            "path": "solve.table[-2].happiness"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day13",
+            "path": "solve.table[-1].this_happiness"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day13",
+            "path": "solve.table[-1].other_happiness"
+        }
+    ]
+}
