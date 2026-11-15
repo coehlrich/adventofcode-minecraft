@@ -1,0 +1,24 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day11",
+            "path": "characters[-2].check.pairs"
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "int_value_check",
+                "value": {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day11",
+                    "path": "characters[-1].check.repeated"
+                },
+                "test": 2
+            },
+            "on_true": 1,
+            "on_false": 0
+        }
+    ]
+}

@@ -16,3 +16,4 @@ data modify storage adventofcode:math/constants 0 set value [0, 0, 0, 0, 0, 0, 0
 data modify storage adventofcode:math/constants -1 set value [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 gamerule max_command_sequence_length 1000000
+gamerule random_tick_speed 0

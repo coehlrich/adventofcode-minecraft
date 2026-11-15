@@ -1,0 +1,3 @@
+data modify storage adventofcode:2015/day11 characters[-1].check.increasing set compute default integer adventofcode:2015/day11/check/increasing
+data modify storage adventofcode:2015/day11 characters[-1].check.repeated set compute default integer adventofcode:2015/day11/check/repeated
+data modify storage adventofcode:2015/day11 characters[-1].check.pairs set compute default integer adventofcode:2015/day11/check/pair
