@@ -1,0 +1,72 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day15",
+            "path": "result.part2"
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "int_value_check",
+                "value": {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day15",
+                    "path": "stack[-1].calories"
+                },
+                "test": 500
+            },
+            "on_true": {
+                "type": "mul",
+                "inputs": [
+                    {
+                        "type": "max",
+                        "inputs": [
+                            {
+                                "type": "storage",
+                                "storage": "adventofcode:2015/day15",
+                                "path": "stack[-1].capacity"
+                            },
+                            0
+                        ]
+                    },
+                    {
+                        "type": "max",
+                        "inputs": [
+                            {
+                                "type": "storage",
+                                "storage": "adventofcode:2015/day15",
+                                "path": "stack[-1].durability"
+                            },
+                            0
+                        ]
+                    },
+                    {
+                        "type": "max",
+                        "inputs": [
+                            {
+                                "type": "storage",
+                                "storage": "adventofcode:2015/day15",
+                                "path": "stack[-1].flavor"
+                            },
+                            0
+                        ]
+                    },
+                    {
+                        "type": "max",
+                        "inputs": [
+                            {
+                                "type": "storage",
+                                "storage": "adventofcode:2015/day15",
+                                "path": "stack[-1].texture"
+                            },
+                            0
+                        ]
+                    }
+                ]
+            },
+            "on_false": 0
+        }
+    ]
+}

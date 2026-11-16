@@ -1,0 +1,9 @@
+{
+    "type": "sub",
+    "left": 100,
+    "right": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day15",
+        "path": "stack[-2].total"
+    }
+}

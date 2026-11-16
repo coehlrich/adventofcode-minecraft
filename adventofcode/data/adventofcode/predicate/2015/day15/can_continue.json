@@ -1,0 +1,11 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day15",
+        "path": "stack[-1].total"
+    },
+    "test": {
+        "max": 100
+    }
+}

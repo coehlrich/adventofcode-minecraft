@@ -1,0 +1,59 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day15",
+            "path": "result.part1"
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "max",
+                    "inputs": [
+                        {
+                            "type": "storage",
+                            "storage": "adventofcode:2015/day15",
+                            "path": "stack[-1].capacity"
+                        },
+                        0
+                    ]
+                },
+                {
+                    "type": "max",
+                    "inputs": [
+                        {
+                            "type": "storage",
+                            "storage": "adventofcode:2015/day15",
+                            "path": "stack[-1].durability"
+                        },
+                        0
+                    ]
+                },
+                {
+                    "type": "max",
+                    "inputs": [
+                        {
+                            "type": "storage",
+                            "storage": "adventofcode:2015/day15",
+                            "path": "stack[-1].flavor"
+                        },
+                        0
+                    ]
+                },
+                {
+                    "type": "max",
+                    "inputs": [
+                        {
+                            "type": "storage",
+                            "storage": "adventofcode:2015/day15",
+                            "path": "stack[-1].texture"
+                        },
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}

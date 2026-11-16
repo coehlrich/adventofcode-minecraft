@@ -1,0 +1,25 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day15",
+            "path": "stack[-2].calories"
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day15",
+                    "path": "stack[-1].amount"
+                },
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day15",
+                    "path": "stack[-1].ingredient.calories"
+                }
+            ]
+        }
+    ]
+}
