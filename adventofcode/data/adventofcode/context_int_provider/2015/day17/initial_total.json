@@ -1,0 +1,35 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "conditional",
+            "condition": "adventofcode:2015/day17/bits/bit_0",
+            "on_true": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day17",
+                "path": "stack[0].container"
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": "adventofcode:2015/day17/bits/bit_1",
+            "on_true": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day17",
+                "path": "stack[1].container"
+            },
+            "on_false": 0
+        },
+        {
+            "type": "conditional",
+            "condition": "adventofcode:2015/day17/bits/bit_2",
+            "on_true": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day17",
+                "path": "stack[2].container"
+            },
+            "on_false": 0
+        }
+    ]
+}
