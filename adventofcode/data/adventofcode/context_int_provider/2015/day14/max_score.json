@@ -1,0 +1,15 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day14",
+            "path": "result.part2"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day14",
+            "path": "reindeer[0].score"
+        }
+    ]
+}

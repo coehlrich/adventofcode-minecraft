@@ -1,0 +1,56 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day14",
+            "path": "reindeer[0].distance"
+        },
+        {
+            "type": "conditional",
+            "condition": {
+                "type": "int_value_check",
+                "value": {
+                    "type": "mod",
+                    "left": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day14",
+                        "path": "tick"
+                    },
+                    "right": {
+                        "type": "add",
+                        "inputs": [
+                            {
+                                "type": "storage",
+                                "storage": "adventofcode:2015/day14",
+                                "path": "reindeer[0].speed_time"
+                            },
+                            {
+                                "type": "storage",
+                                "storage": "adventofcode:2015/day14",
+                                "path": "reindeer[0].rest_time"
+                            }
+                        ]
+                    }
+                },
+                "test": {
+                    "max": {
+                        "type": "sub",
+                        "left": {
+                            "type": "storage",
+                            "storage": "adventofcode:2015/day14",
+                            "path": "reindeer[0].speed_time"
+                        },
+                        "right": 1
+                    }
+                }
+            },
+            "on_true": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day14",
+                "path": "reindeer[0].speed"
+            },
+            "on_false": 0
+        }
+    ]
+}
