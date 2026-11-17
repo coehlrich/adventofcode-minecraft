@@ -1,0 +1,144 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "add",
+        "inputs": [
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": -1,
+                    "offsetZ": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": 0,
+                    "offsetZ": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": 1,
+                    "offsetZ": -1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": -1,
+                    "offsetZ": 0,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": 1,
+                    "offsetZ": 0,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": -1,
+                    "offsetZ": 1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": 0,
+                    "offsetZ": 1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            },
+            {
+                "type": "conditional",
+                "condition": {
+                    "type": "location_check",
+                    "offsetX": 1,
+                    "offsetZ": 1,
+                    "predicate": {
+                        "block": {
+                            "blocks": "#adventofcode:2015/day18/on"
+                        }
+                    }
+                },
+                "on_true": 1,
+                "on_false": 0
+            }
+        ]
+    },
+    "test": {
+        "max": 3,
+        "min": {
+            "type": "conditional",
+            "condition": {
+                "type": "location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": "#adventofcode:2015/day18/on"
+                    }
+                }
+            },
+            "on_true": 2,
+            "on_false": 3
+        }
+    }
+}
