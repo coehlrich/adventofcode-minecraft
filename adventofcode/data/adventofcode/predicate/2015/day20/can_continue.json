@@ -1,0 +1,25 @@
+{
+    "type": "float_value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day20",
+        "path": "house.value"
+    },
+    "test": {
+        "max": {
+            "type": "sub",
+            "left": {
+                "type": "ceil",
+                "input": {
+                    "type": "sqrt",
+                    "input": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day20",
+                        "path": "house.number"
+                    }
+                }
+            },
+            "right": 1
+        }
+    }
+}

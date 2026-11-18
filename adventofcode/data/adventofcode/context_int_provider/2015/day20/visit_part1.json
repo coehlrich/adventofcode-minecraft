@@ -1,0 +1,40 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day20",
+            "path": "house.part1"
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day20",
+                    "path": "house.value"
+                },
+                10
+            ]
+        },
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "div",
+                    "left": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day20",
+                        "path": "house.number"
+                    },
+                    "right": {
+                        "type": "storage",
+                        "storage": "adventofcode:2015/day20",
+                        "path": "house.value"
+                    }
+                },
+                10
+            ]
+        }
+    ]
+}
