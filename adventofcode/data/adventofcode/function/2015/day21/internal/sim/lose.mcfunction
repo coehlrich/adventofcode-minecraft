@@ -1,0 +1,1 @@
+data modify storage adventofcode:2015/day21 result.part2 set compute default integer adventofcode:2015/day21/part2

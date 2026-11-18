@@ -1,0 +1,2 @@
+data modify storage adventofcode:2015/day21 combinations.rings_index1 set value 0
+data modify storage adventofcode:2015/day21 combinations.rings_index2 set compute default integer adventofcode:2015/day21/combinations/increment_rings_index2

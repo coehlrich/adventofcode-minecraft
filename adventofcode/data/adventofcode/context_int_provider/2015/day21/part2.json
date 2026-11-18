@@ -1,0 +1,15 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day21",
+            "path": "sim.player.cost"
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day21",
+            "path": "result.part2"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day21",
+        "path": "sim.player.hp"
+    },
+    "right": {
+        "type": "max",
+        "inputs": [
+            {
+                "type": "sub",
+                "left": {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day21",
+                    "path": "sim.boss.damage"
+                },
+                "right": {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day21",
+                    "path": "sim.player.armor"
+                }
+            },
+            1
+        ]
+    }
+}

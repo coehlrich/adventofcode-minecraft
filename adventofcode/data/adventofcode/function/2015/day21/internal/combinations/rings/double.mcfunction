@@ -1,0 +1,4 @@
+execute unless predicate adventofcode:2015/day21/combinations/ring_indexes_equal run function adventofcode:2015/day21/internal/combinations/rings/double/add with storage adventofcode:2015/day21 combinations
+data modify storage adventofcode:2015/day21 combinations.rings_index1 set compute default integer adventofcode:2015/day21/combinations/increment_rings_index1
+execute if data storage adventofcode:2015/day21 combinations{rings_index1: 6} run function adventofcode:2015/day21/internal/combinations/rings/double/wrap
+execute unless data storage adventofcode:2015/day21 combinations{rings_index2: 6} run function adventofcode:2015/day21/internal/combinations/rings/double
