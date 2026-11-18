@@ -1,0 +1,1 @@
+$execute unless data storage adventofcode:2015/day19 part1.molecules[{value: "$(value)"}] run data modify storage adventofcode:2015/day19 part1.molecules append value {value: "$(value)"}

@@ -1,0 +1,21 @@
+{
+    "type": "add",
+    "inputs": [
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day19",
+                    "path": "convert.input_array[0]"
+                },
+                256
+            ]
+        },
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day19",
+            "path": "convert.input_array[1]"
+        }
+    ]
+}

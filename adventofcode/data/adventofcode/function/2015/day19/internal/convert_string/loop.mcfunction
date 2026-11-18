@@ -1,0 +1,2 @@
+execute if predicate adventofcode:2015/day19/is_lower_case_letter run return run function adventofcode:2015/day19/internal/convert_string/two_letter
+execute unless predicate adventofcode:2015/day19/is_lower_case_letter run return run function adventofcode:2015/day19/internal/convert_string/one_letter
