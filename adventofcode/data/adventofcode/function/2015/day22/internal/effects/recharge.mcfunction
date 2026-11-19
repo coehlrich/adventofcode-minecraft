@@ -1,0 +1,2 @@
+data modify storage adventofcode:2015/day22 stack[-1].player.mana set compute default integer adventofcode:2015/day22/effects/apply_recharge
+data modify storage adventofcode:2015/day22 stack[-1].effects.recharge set compute default integer adventofcode:2015/day22/effects/decrement_recharge

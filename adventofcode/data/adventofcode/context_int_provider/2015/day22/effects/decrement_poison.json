@@ -1,0 +1,9 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day22",
+        "path": "stack[-1].effects.poison"
+    },
+    "right": 1
+}

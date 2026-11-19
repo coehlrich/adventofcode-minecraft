@@ -1,0 +1,1 @@
+$data modify storage adventofcode:2015/day22 stack[-1].effects.$(type) set from storage adventofcode:2015/day22 stack[-1].spell.effect.turns

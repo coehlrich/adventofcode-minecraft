@@ -1,0 +1,25 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "add",
+        "inputs": [
+            {
+                "type": "storage",
+                "storage": "adventofcode:2015/day22",
+                "path": "stack[-1].used_mana"
+            },
+            {
+                "type": "storage",
+                "storage": "adventofcode:2015/day22",
+                "path": "stack[-1].spell.cost"
+            }
+        ]
+    },
+    "test": {
+        "min": {
+            "type": "storage",
+            "storage": "adventofcode:2015/day22",
+            "path": "min_mana"
+        }
+    }
+}

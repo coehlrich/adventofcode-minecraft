@@ -1,0 +1,28 @@
+{
+    "type": "sub",
+    "left": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day22",
+        "path": "stack[-1].player.hp"
+    },
+    "right": {
+        "type": "max",
+        "inputs": [
+            {
+                "type": "sub",
+                "left": {
+                    "type": "storage",
+                    "storage": "adventofcode:2015/day22",
+                    "path": "stack[-1].boss.damage"
+                },
+                "right": {
+                    "type": "conditional",
+                    "condition": "adventofcode:2015/day22/effects/shield",
+                    "on_true": 7,
+                    "on_false": 0
+                }
+            },
+            1
+        ]
+    }
+}
