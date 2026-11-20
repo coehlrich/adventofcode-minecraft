@@ -1,0 +1,1 @@
+function adventofcode:2015/day23/internal/execute/apply_offset

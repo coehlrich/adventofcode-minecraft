@@ -1,0 +1,3 @@
+execute if data storage adventofcode:2015/day23 execute.instruction{register: "a"} run data modify storage adventofcode:2015/day23 execute.a set compute default integer adventofcode:2015/day23/execute/instructions/hlf/a
+execute if data storage adventofcode:2015/day23 execute.instruction{register: "b"} run data modify storage adventofcode:2015/day23 execute.b set compute default integer adventofcode:2015/day23/execute/instructions/hlf/b
+function adventofcode:2015/day23/internal/execute/increment_pointer

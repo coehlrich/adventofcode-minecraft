@@ -1,0 +1,1 @@
+$data modify storage adventofcode:2015/day23 execute.instruction set from storage adventofcode:2015/day23 instructions[$(pointer)]

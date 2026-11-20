@@ -1,0 +1,20 @@
+{
+    "type": "int_value_check",
+    "value": {
+        "type": "storage",
+        "storage": "adventofcode:2015/day23",
+        "path": "execute.pointer"
+    },
+    "test": {
+        "min": 0,
+        "max": {
+            "type": "sub",
+            "left": {
+                "type": "storage",
+                "storage": "adventofcode:2015/day23",
+                "path": "instruction_count"
+            },
+            "right": 1
+        }
+    }
+}

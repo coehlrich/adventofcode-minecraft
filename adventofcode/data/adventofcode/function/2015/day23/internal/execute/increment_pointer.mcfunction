@@ -1,0 +1,1 @@
+data modify storage adventofcode:2015/day23 execute.pointer set compute default integer adventofcode:2015/day23/execute/increment_pointer

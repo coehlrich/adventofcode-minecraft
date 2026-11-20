@@ -1,0 +1,11 @@
+{
+    "type": "mul",
+    "inputs": [
+        {
+            "type": "storage",
+            "storage": "adventofcode:2015/day23",
+            "path": "execute.a"
+        },
+        3
+    ]
+}

@@ -1,0 +1,4 @@
+execute if data storage adventofcode:2015/day23 execute.instruction{register: "a"} run data modify storage adventofcode:2015/day23 execute.test set from storage adventofcode:2015/day23 execute.a
+execute if data storage adventofcode:2015/day23 execute.instruction{register: "b"} run data modify storage adventofcode:2015/day23 execute.test set from storage adventofcode:2015/day23 execute.b
+execute if predicate adventofcode:2015/day23/execute/instructions/jie run return run function adventofcode:2015/day23/internal/execute/apply_offset
+function adventofcode:2015/day23/internal/execute/increment_pointer
